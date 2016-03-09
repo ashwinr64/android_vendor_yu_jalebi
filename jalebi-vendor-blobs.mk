@@ -100,28 +100,32 @@ PRODUCT_COPY_FILES += \
     vendor/yu/jalebi/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/yu/jalebi/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/yu/jalebi/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/yu/jalebi/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/yu/jalebi/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/yu/jalebi/proprietary/vendor/lib/egl/libESXEGL_adreno.so:system/vendor/lib/egl/libESXEGL_adreno.so \
     vendor/yu/jalebi/proprietary/vendor/lib/egl/libESXGLESv1_CM_adreno.so:system/vendor/lib/egl/libESXGLESv1_CM_adreno.so \
     vendor/yu/jalebi/proprietary/vendor/lib/egl/libESXGLESv2_adreno.so:system/vendor/lib/egl/libESXGLESv2_adreno.so \
     vendor/yu/jalebi/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/yu/jalebi/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/egl/libRBEGL_adreno.so:system/vendor/lib/egl/libRBEGL_adreno.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
     vendor/yu/jalebi/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    vendor/yu/jalebi/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
-    vendor/yu/jalebi/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \	
-    vendor/yu/jalebi/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/yu/jalebi/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/yu/jalebi/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/yu/jalebi/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/yu/jalebi/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-    vendor/yu/jalebi/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/yu/jalebi/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/yu/jalebi/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/yu/jalebi/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
@@ -136,7 +140,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/jalebi/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-    vendor/yu/jalebi/proprietary/vendor/bin/perfd:vendor/bin/perfd \
+    vendor/yu/jalebi/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/yu/jalebi/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/yu/jalebi/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/yu/jalebi/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
@@ -178,7 +182,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/jalebi/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/yu/jalebi/proprietary/vendor/bin/thermal-engine:vendor/bin/thermal-engine \
+    vendor/yu/jalebi/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/yu/jalebi/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/yu/jalebi/proprietary/bin/time_daemon:system/bin/time_daemon \
