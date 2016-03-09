@@ -136,7 +136,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/jalebi/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-    vendor/yu/jalebi/proprietary/bin/perfd:system/bin/perfd \
+    vendor/yu/jalebi/proprietary/vendor/bin/perfd:vendor/bin/perfd \
     vendor/yu/jalebi/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/yu/jalebi/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/yu/jalebi/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
@@ -178,7 +178,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/jalebi/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/yu/jalebi/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/yu/jalebi/proprietary/vendor/bin/thermal-engine:vendor/bin/thermal-engine \
     vendor/yu/jalebi/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/yu/jalebi/proprietary/bin/time_daemon:system/bin/time_daemon \
