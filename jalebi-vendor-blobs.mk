@@ -97,6 +97,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/jalebi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/yu/jalebi/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/yu/jalebi/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/yu/jalebi/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
