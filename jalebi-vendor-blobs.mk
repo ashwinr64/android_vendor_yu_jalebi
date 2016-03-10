@@ -173,7 +173,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/jalebi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/yu/jalebi/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/yu/jalebi/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/yu/jalebi/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
